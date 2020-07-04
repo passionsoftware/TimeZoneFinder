@@ -136,7 +136,7 @@ namespace TimeZoneFinder
                     if(btnSecond.Name == second_Button)
                     {
                         
-                        SetButtonInitalStyle(ref btn);
+                        SetButtonInitalStyle(ref btnSecond);
                     }
                 }
             }
@@ -157,7 +157,7 @@ namespace TimeZoneFinder
                     if (btnSecond.Name == second_Button)
                     {
 
-                        SetButtonMouseOverStyle(ref btn);
+                        SetButtonMouseOverStyle(ref btnSecond);
                     }
                 }
             }
@@ -176,7 +176,7 @@ namespace TimeZoneFinder
 
         private void SetButtonInitalStyle(ref Button button)
         {
-            button.Width = 29;
+            button.Width = 30;
             button.Height = 20;
             button.FontSize = 9;
             button.Background = Brushes.White;
@@ -187,7 +187,7 @@ namespace TimeZoneFinder
 
         private void SetButtonMouseOverStyle(ref Button button)
         {
-            button.FontSize = 10;
+            button.FontSize = 9.5;
             button.Background = Brushes.LightBlue;
             button.FontWeight = FontWeights.Bold;
         }
